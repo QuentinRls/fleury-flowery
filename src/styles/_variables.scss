@@ -1,0 +1,39 @@
+// Colors
+$color-primary: rgba(70, 116, 62, 1); // Deep Green
+$color-primary-light: rgba(116, 142, 85, 1); // Medium Green
+$color-secondary: rgba(254, 241, 197, 1); // Light Beige/Cream
+$color-accent: rgba(221, 231, 182, 1); // Soft Green
+$color-accent-hover: rgba(70, 116, 62, 0.8); // Deep Green with opacity
+
+$color-text: #333333; // Sharp Black/Grey
+$color-text-light: #666666;
+$color-white: #FFFFFF;
+$color-background: #FFFFFF; // Clean White Background
+
+// Fonts
+$font-family-base: 'Montserrat', sans-serif;
+$font-family-heading: 'Playfair Display', serif;
+
+// Spacing
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 16px;
+$space-4: 24px;
+$space-5: 32px;
+$space-6: 48px;
+$space-8: 64px;
+$space-10: 80px;
+
+// Breakpoints
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+$breakpoint-large: 1200px;
+
+// Transitions
+$transition-base: all 0.3s ease-in-out;
+
+// Shadows
+$shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+$shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+$shadow-lg: 0 10px 15px rgba(0,0,0,0.1);

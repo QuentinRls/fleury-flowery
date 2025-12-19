@@ -1,0 +1,85 @@
+@use '../variables' as *;
+
+.footer {
+  background: linear-gradient(135deg, $color-primary 0%, 100%);
+  color: $color-white;
+  padding: $space-8 0 $space-6 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba($color-white, 0.1) 0%, rgba(255,255,255,0) 70%);
+    border-radius: 50%;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: -100px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba($color-white, 0.05) 0%, rgba(255,255,255,0) 70%);
+    border-radius: 50%;
+  }
+
+  p {
+    opacity: 0.85;
+    font-size: 0.95rem;
+    position: relative;
+    z-index: 1;
+    line-height: 1.6;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $space-6;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: $breakpoint-tablet) {
+      flex-direction: column;
+      gap: $space-4;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: $space-4;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .social-link {
+      color: $color-white;
+      font-weight: 700;
+      text-decoration: none;
+      padding: $space-2 $space-4;
+      border: 2px solid $color-white;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: $space-2;
+
+      &:hover {
+        background-color: $color-white;
+        color: $color-primary;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@use '../variables' as *;
+
+.marquee-container {
+  background: linear-gradient(90deg, $color-primary 0%, $color-primary-light 100%);
+  color: $color-white;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: $space-3 0;
+  position: relative;
+  z-index: 1001; // Above header
+  box-shadow: 0 4px 12px rgba(70, 116, 62, 0.2);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background: linear-gradient(90deg, $color-primary, transparent);
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background: linear-gradient(90deg, transparent, $color-primary);
+    z-index: 10;
+    pointer-events: none;
+  }
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+  
+  span {
+    display: inline-block;
+    padding-right: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    color: $color-white;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

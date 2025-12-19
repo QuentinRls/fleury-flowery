@@ -1,0 +1,59 @@
+@use '../variables' as *;
+
+.header {
+  position: fixed;
+  top: 30px; // Below marquee
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: $space-4 0;
+  transition: $transition-base;
+  background-color: rgba(254, 241, 197, 0.95); // Light beige background for better harmony
+  backdrop-filter: blur(5px);
+  box-shadow: $shadow-sm;
+
+  &--scrolled {
+    padding: $space-2 0;
+    top: 0; // Stick to top when scrolled
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-family: $font-family-heading;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-primary; // Pink logo always
+    transition: $transition-base;
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      gap: $space-5;
+
+      li a {
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $color-text; // Dark text always
+        transition: $transition-base;
+        
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .header__nav {
+        display: none; // Simple mobile hide for now, can add burger later
+    }
+}
