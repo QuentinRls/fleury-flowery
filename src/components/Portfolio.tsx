@@ -1,50 +1,59 @@
 import { motion } from 'framer-motion';
+import event1 from '../assets/event1.jpeg';
+import familyImg from '../assets/family.jpeg';
+import event2 from '../assets/event2.jpeg';
+import fancyPackImg from '../assets/fancy-pack.jpeg';
+import fancyKid from '../assets/fancy-kid.jpeg';
+import packOfThree from '../assets/pack-of-three.jpeg';
+import flower6 from '../assets/flower6.jpeg';
+import flower7 from '../assets/flower7.jpeg';
+import flower8 from '../assets/flower8.jpeg';
 
 const Portfolio = () => {
   const events = [
     { 
       title: 'Elegant Wedding Ceremony', 
-      img: '/src/assets/event1.jpeg',
+      img: event1,
       category: 'Wedding'
     },
     { 
       title: 'Family Celebration', 
-      img: '/src/assets/family.jpeg',
+      img: familyImg,
       category: 'Event'
     },
     { 
       title: 'Corporate Event Styling', 
-      img: '/src/assets/event2.jpeg',
+      img: event2,
       category: 'Corporate'
     },
     { 
       title: 'Premium Fancy Pack Display', 
-      img: '/src/assets/fancy-pack.jpeg',
+      img: fancyPackImg,
       category: 'Product'
     },
     { 
       title: 'Luxury Fancy Kid Collection', 
-      img: '/src/assets/fancy-kid.jpeg',
+      img: fancyKid,
       category: 'Premium'
     },
     { 
       title: 'Elegant Pack of Three', 
-      img: '/src/assets/pack-of-three.jpeg',
+      img: packOfThree,
       category: 'Collection'
     },
     { 
       title: 'Sophisticated Arrangement', 
-      img: '/src/assets/flower6.jpeg',
+      img: flower6,
       category: 'Floral'
     },
     { 
       title: 'Garden Collection Showcase', 
-      img: '/src/assets/flower7.jpeg',
+      img: flower7,
       category: 'Garden'
     },
     { 
       title: 'Botanical Beauty', 
-      img: '/src/assets/flower8.jpeg',
+      img: flower8,
       category: 'Botanical'
     }
   ];

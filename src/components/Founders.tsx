@@ -1,16 +1,18 @@
 import { motion } from 'framer-motion';
+import sistaImg from '../assets/sista.png';
+import dindaImg from '../assets/dinda.jpeg';
 
 const Founders = () => {
   const founders = [
     { 
       name: 'Sista', 
-      img: '/src/assets/sista.png',
+      img: sistaImg,
       role: 'Creative Director & Head Florist',
       bio: 'With over 15 years of experience in floral design, Sista brings innovative vision and artistic excellence to every creation. Her passion for sustainable floristry shapes the heart of Fleuri Flowery.'
     },
     { 
       name: 'Dinda', 
-      img: '/src/assets/dinda.jpeg',
+      img: dindaImg,
       role: 'Operations Manager & Botanist',
       bio: 'Dinda ensures every arrangement meets our highest standards while maintaining our commitment to eco-friendly practices. Her botanical knowledge ensures freshness and quality in every bouquet.'
     }

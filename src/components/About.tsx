@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import familyImg from '../assets/family.jpeg';
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <img src="/src/assets/family.jpeg" alt="Fleuri Flowery Team" />
+          <img src={familyImg} alt="Fleuri Flowery Team" />
         </motion.div>
         <motion.div 
           className="about__content"
