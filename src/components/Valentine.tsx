@@ -10,15 +10,14 @@ import valentin8 from '../assets/new/valentine/FEA309E9-C2E4-4414-92F1-6EB2BA917
 import valentin9 from '../assets/new/valentine/FF195D25-6015-402A-BC0C-80B4FC24A1A2.jpg';
 
 const valentineProducts = [
-  { id: 1, name: "Choco bear", price: "IDR 220.000", img: valentin1 },
-  { id: 2, name: "Beng-Beng lover", price: "IDR 250.000", img: valentin2 },
+  { id: 1, name: "Choco bear", price: "IDR 150.000", img: valentin1 },
+  { id: 2, name: "Beng-Beng lover", price: "IDR 60.000", img: valentin2 },
   { id: 3, name: "Strawberry milky", price: "IDR 180.000", img: valentin3 },
-  { id: 4, name: "Aurora", price: "IDR 280.000", img: valentin4 },
-  { id: 5, name: "Pink rosie", price: "IDR 200.000", img: valentin5 },
-  { id: 6, name: " Love is red", price: "IDR 240.000", img: valentin6 },
-  { id: 7, name: "Valentine's Luxury", price: "IDR 300.000", img: valentin7 },
-  { id: 8, name: "Red Daisy", price: "IDR 160.000", img: valentin8 },
-  { id: 9, name: "Chco Box", price: "IDR 270.000", img: valentin9 }
+  { id: 4, name: "Aurora", price: "IDR 250.000", img: valentin4 },
+  { id: 5, name: "Pink rosie", price: "IDR 150.000", img: valentin5 },
+  { id: 6, name: "Love is red", price: "IDR 125.000", img: valentin6 },
+  { id: 8, name: "Red Daisy", price: "IDR 100.000", img: valentin8 },
+  { id: 9, name: "Choco Box", price: "IDR 200.000", img: valentin9 }
 ];
 
 const Valentine = () => {
