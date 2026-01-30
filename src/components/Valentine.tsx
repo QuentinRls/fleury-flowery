@@ -34,14 +34,10 @@ const Valentine = () => {
             <p>Ungkapkan cintamu dengan rangkaian bunga terindah kami</p>
         </motion.div>
         <div className="gallery__grid">
-          {valentineProducts.map((product, index) => (
-            <motion.div 
+          {valentineProducts.map((product) => (
+            <div 
               key={product.id} 
               className="gallery__item"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
             >
               <a 
                 href={`https://wa.me/6285738527587?text=Halo, saya tertarik dengan ${product.name} (Mulai dari ${product.price}). Bisakah Anda memberikan informasi lebih lanjut?`}
@@ -59,7 +55,7 @@ const Valentine = () => {
                   </p>
                 </div>
               </a>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

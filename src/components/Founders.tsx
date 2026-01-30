@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
-import sistaImg from '../assets/sista.png';
+import sistaImg from '../assets/sista.jpeg';
 import dindaImg from '../assets/dinda.jpeg';
 
 const Founders = () => {
   const founders = [
     { 
-      name: 'Sista', 
+      name: 'Dwi', 
       img: sistaImg,
       role: 'Direktur Kreatif & Kepala Florist',
-      bio: 'Dengan lebih dari 15 tahun pengalaman dalam desain bunga, Sista menghadirkan visi inovatif dan keunggulan artistik untuk setiap kreasi. Gairahnya untuk florist berkelanjutan membentuk jantung Fleuri Flowery.'
+      bio: 'Menghadirkan visi inovatif dan keunggulan artistik untuk setiap kreasi. Gairahnya untuk florist berkelanjutan membentuk jantung Fleuri Flowery.'
     },
     { 
       name: 'Dinda', 
