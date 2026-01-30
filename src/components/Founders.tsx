@@ -7,14 +7,14 @@ const Founders = () => {
     { 
       name: 'Sista', 
       img: sistaImg,
-      role: 'Creative Director & Head Florist',
-      bio: 'With over 15 years of experience in floral design, Sista brings innovative vision and artistic excellence to every creation. Her passion for sustainable floristry shapes the heart of Fleuri Flowery.'
+      role: 'Direktur Kreatif & Kepala Florist',
+      bio: 'Dengan lebih dari 15 tahun pengalaman dalam desain bunga, Sista menghadirkan visi inovatif dan keunggulan artistik untuk setiap kreasi. Gairahnya untuk florist berkelanjutan membentuk jantung Fleuri Flowery.'
     },
     { 
       name: 'Dinda', 
       img: dindaImg,
-      role: 'Operations Manager & Botanist',
-      bio: 'Dinda ensures every arrangement meets our highest standards while maintaining our commitment to eco-friendly practices. Her botanical knowledge ensures freshness and quality in every bouquet.'
+      role: 'Manajer Operasional & Ahli Botani',
+      bio: 'Dinda memastikan setiap rangkaian memenuhi standar tertinggi kami sambil mempertahankan komitmen kami terhadap praktik ramah lingkungan. Pengetahuan botaninya memastikan kesegaran dan kualitas di setiap buket.'
     }
   ];
 
@@ -28,8 +28,8 @@ const Founders = () => {
           viewport={{ once: true }}
           style={{ textAlign: 'center', marginBottom: '4rem' }}
         >
-          <h2>Meet Our Team</h2>
-          <p>Passionate artisans dedicated to bringing floral dreams to life</p>
+          <h2>Tim Kami</h2>
+          <p>Seniman berdedikasi yang menghadirkan impian bunga menjadi kenyataan</p>
         </motion.div>
         <div className="founders__grid">
           {founders.map((founder, index) => (

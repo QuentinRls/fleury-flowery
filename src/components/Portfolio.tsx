@@ -12,49 +12,49 @@ import flower8 from '../assets/flower8.jpeg';
 const Portfolio = () => {
   const events = [
     { 
-      title: 'Elegant Wedding Ceremony', 
+      title: 'Upacara Pernikahan Elegan', 
       img: event1,
-      category: 'Wedding'
+      category: 'Pernikahan'
     },
     { 
-      title: 'Family Celebration', 
+      title: 'Perayaan Keluarga', 
       img: familyImg,
-      category: 'Event'
+      category: 'Acara'
     },
     { 
-      title: 'Corporate Event Styling', 
+      title: 'Styling Acara Korporat', 
       img: event2,
-      category: 'Corporate'
+      category: 'Korporat'
     },
     { 
-      title: 'Premium Fancy Pack Display', 
+      title: 'Tampilan Paket Mewah Premium', 
       img: fancyPackImg,
-      category: 'Product'
+      category: 'Produk'
     },
     { 
-      title: 'Luxury Fancy Kid Collection', 
+      title: 'Koleksi Mewah Fancy Kid', 
       img: fancyKid,
       category: 'Premium'
     },
     { 
-      title: 'Elegant Pack of Three', 
+      title: 'Paket Tiga Elegan', 
       img: packOfThree,
-      category: 'Collection'
+      category: 'Koleksi'
     },
     { 
-      title: 'Sophisticated Arrangement', 
+      title: 'Rangkaian Sophisticated', 
       img: flower6,
-      category: 'Floral'
+      category: 'Bunga'
     },
     { 
-      title: 'Garden Collection Showcase', 
+      title: 'Showcase Koleksi Taman', 
       img: flower7,
-      category: 'Garden'
+      category: 'Taman'
     },
     { 
-      title: 'Botanical Beauty', 
+      title: 'Keindahan Botani', 
       img: flower8,
-      category: 'Botanical'
+      category: 'Botani'
     }
   ];
 
@@ -68,8 +68,8 @@ const Portfolio = () => {
           viewport={{ once: true }}
           style={{ textAlign: 'center', marginBottom: '4rem' }}
         >
-          <h2>Our Events & Projects</h2>
-          <p>Showcasing our most memorable floral creations and stunning event designs</p>
+          <h2>Acara & Proyek Kami</h2>
+          <p>Menampilkan kreasi bunga paling berkesan dan desain acara yang memukau</p>
         </motion.div>
         <div className="portfolio__grid">
           {events.map((event, index) => (

@@ -9,6 +9,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import Valentine from './components/Valentine';
+import BestSellers from './components/BestSellers';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Valentine />
+        <BestSellers />
         <Gallery />
         <About />
         <Services />

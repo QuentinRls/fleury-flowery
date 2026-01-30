@@ -12,21 +12,21 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-          Floral Artistry in the Heart of Bali
+          Seni Bunga di Jantung Bali
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Creating unforgettable moments with nature's finest blooms.
+          Menciptakan momen tak terlupakan dengan bunga terbaik alam.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <a href="#gallery" className="btn btn--primary">View Our Work</a>
+          <a href="#gallery" className="btn btn--primary">Lihat Karya Kami</a>
         </motion.div>
       </div>
     </section>

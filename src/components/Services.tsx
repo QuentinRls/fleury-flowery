@@ -2,28 +2,28 @@ import { motion } from 'framer-motion';
 
 const services = [
   { 
-    title: "Wedding Florals", 
-    desc: "Breathtaking custom arrangements for your special day. From bouquets to ceremonies, we create unforgettable moments.",
+    title: "Bunga Pernikahan", 
+    desc: "Rangkaian custom yang menakjubkan untuk hari spesial Anda. Dari buket hingga upacara, kami ciptakan momen tak terlupakan.",
     icon: "💍",
-    details: "Custom designs, seasonal blooms, full event coordination"
+    details: "Desain custom, bunga musiman, koordinasi acara lengkap"
   },
   { 
-    title: "Event Styling", 
-    desc: "Transform corporate and private events with stunning floral installations and centerpieces.",
+    title: "Styling Acara", 
+    desc: "Ubah acara korporat dan pribadi dengan instalasi bunga dan centerpiece yang memukau.",
     icon: "🎉",
-    details: "Centerpieces, decorations, thematic arrangements"
+    details: "Centerpiece, dekorasi, rangkaian tematik"
   },
   { 
-    title: "Floral Workshops", 
-    desc: "Learn the art of floral arrangement from our expert designers. Perfect for groups and individuals.",
+    title: "Workshop Bunga", 
+    desc: "Pelajari seni merangkai bunga dari desainer ahli kami. Sempurna untuk grup dan individu.",
     icon: "✂️",
-    details: "Hands-on classes, beginner to advanced, team building"
+    details: "Kelas praktek, pemula hingga mahir, team building"
   },
   {
-    title: "Subscription Boxes",
-    desc: "Receive fresh, beautifully arranged flowers delivered to your door weekly or monthly.",
+    title: "Paket Berlangganan",
+    desc: "Terima bunga segar yang dirangkai indah dikirim ke pintu Anda setiap minggu atau bulan.",
     icon: "🌸",
-    details: "Fresh weekly deliveries, customizable arrangements"
+    details: "Pengiriman segar mingguan, rangkaian yang dapat disesuaikan"
   }
 ];
 
@@ -38,8 +38,8 @@ const Services = () => {
           viewport={{ once: true }}
           style={{ textAlign: 'center', marginBottom: '4rem' }}
         >
-          <h2>Our Services</h2>
-          <p>Comprehensive floral solutions for every occasion</p>
+          <h2>Layanan Kami</h2>
+          <p>Solusi bunga lengkap untuk setiap acara</p>
         </motion.div>
         <div className="services__grid">
           {services.map((service, index) => (
