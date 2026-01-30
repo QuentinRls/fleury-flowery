@@ -52,7 +52,9 @@ const BestSellers = () => {
                 </div>
                 <div className="gallery__info">
                   <h3>{product.name}</h3>
-                  <p className="price">{product.price}</p>
+                  <p className="price">
+                    <span className="price-label">Mulai dari</span> {product.price}
+                  </p>
                 </div>
               </a>
             </motion.div>
