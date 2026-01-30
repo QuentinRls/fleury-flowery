@@ -28,34 +28,34 @@ import additional15 from '../assets/new/bestseller/9CC08E4E-E21F-43AF-875C-B9F53
 import additional16 from '../assets/new/bestseller/AE1507EE-A610-4E0D-A1AB-82CB7CBA50E7.jpg';
 
 const products = [
-  { id: 1, name: "Pink Paradise", price: "IDR 180.000", img: flower1 },
-  { id: 2, name: "Summer Love", price: "IDR 220.000", img: flower2 },
-  { id: 3, name: "Bali Breeze", price: "IDR 150.000", img: flower3 },
-  { id: 4, name: "Sweet Romance", price: "IDR 250.000", img: flower4 },
-  { id: 5, name: "Tropical Mix", price: "IDR 170.000", img: flower5 },
-  { id: 6, name: "Premium Pack", price: "IDR 280.000", img: flowerPack },
-  { id: 7, name: "Fancy Pack Deluxe", price: "IDR 260.000", img: fancyPack },
-  { id: 8, name: "Flower Pack Two", price: "IDR 200.000", img: packOfTwo },
-  { id: 9, name: "Special Flower Selection", price: "IDR 240.000", img: specialFlower },
-  { id: 10, name: "Fancy Pack Three", price: "IDR 290.000", img: fancyPack2 },
-  { id: 11, name: "Blue Elegance", price: "IDR 190.000", img: blueFlower },
-  { id: 12, name: "Luxury Collection", price: "IDR 300.000", img: fancyPack3 },
-  { id: 13, name: "Romantic Rose", price: "IDR 210.000", img: additional1 },
-  { id: 14, name: "Love's Heart", price: "IDR 230.000", img: additional2 },
-  { id: 15, name: "Passion Blooms", price: "IDR 180.000", img: additional3 },
-  { id: 16, name: "Affection Bouquet", price: "IDR 270.000", img: additional4 },
-  { id: 17, name: "Eternal Tenderness", price: "IDR 200.000", img: additional5 },
-  { id: 18, name: "Blooming Love", price: "IDR 240.000", img: additional6 },
-  { id: 19, name: "Valentine's Luxury", price: "IDR 295.000", img: additional7 },
-  { id: 20, name: "Rose Dream", price: "IDR 185.000", img: additional8 },
-  { id: 21, name: "Heart Declaration", price: "IDR 255.000", img: additional9 },
-  { id: 22, name: "Classic Elegance", price: "IDR 175.000", img: additional10 },
-  { id: 23, name: "Privileged Moment", price: "IDR 155.000", img: additional11 },
-  { id: 24, name: "Flower of Excellence", price: "IDR 180.000", img: additional12 },
-  { id: 25, name: "Prestige Aroma", price: "IDR 165.000", img: additional13 },
-  { id: 26, name: "Timeless Bouquet", price: "IDR 195.000", img: additional14 },
-  { id: 27, name: "Beauty Signature", price: "IDR 210.000", img: additional15 },
-  { id: 28, name: "Popular Selection", price: "IDR 160.000", img: additional16 }
+  { id: 1, name: "Pink Paradise", img: flower1 },
+  { id: 2, name: "Summer Love", img: flower2 },
+  { id: 3, name: "Bali Breeze", img: flower3 },
+  { id: 4, name: "Sweet Romance", img: flower4 },
+  { id: 5, name: "Tropical Mix", img: flower5 },
+  { id: 6, name: "Premium Pack", img: flowerPack },
+  { id: 7, name: "Fancy Pack Deluxe", img: fancyPack },
+  { id: 8, name: "Flower Pack Two", img: packOfTwo },
+  { id: 9, name: "Special Flower Selection", img: specialFlower },
+  { id: 10, name: "Fancy Pack Three", img: fancyPack2 },
+  { id: 11, name: "Blue Elegance", img: blueFlower },
+  { id: 12, name: "Luxury Collection", img: fancyPack3 },
+  { id: 13, name: "Romantic Rose", img: additional1 },
+  { id: 14, name: "Love's Heart", img: additional2 },
+  { id: 15, name: "Passion Blooms", img: additional3 },
+  { id: 16, name: "Affection Bouquet", img: additional4 },
+  { id: 17, name: "Eternal Tenderness", img: additional5 },
+  { id: 18, name: "Blooming Love", img: additional6 },
+  { id: 19, name: "Valentine's Luxury", img: additional7 },
+  { id: 20, name: "Rose Dream", img: additional8 },
+  { id: 21, name: "Heart Declaration", img: additional9 },
+  { id: 22, name: "Classic Elegance", img: additional10 },
+  { id: 23, name: "Privileged Moment", img: additional11 },
+  { id: 24, name: "Flower of Excellence", img: additional12 },
+  { id: 25, name: "Prestige Aroma", img: additional13 },
+  { id: 26, name: "Timeless Bouquet", img: additional14 },
+  { id: 27, name: "Beauty Signature", img: additional15 },
+  { id: 28, name: "Popular Selection", img: additional16 }
 ];
 
 const Gallery = () => {
@@ -76,7 +76,7 @@ const Gallery = () => {
               className="gallery__item"
             >
               <a 
-                href={`https://wa.me/6285738527587?text=Halo, saya tertarik dengan ${product.name} (Mulai dari ${product.price}). Bisakah Anda memberikan informasi lebih lanjut?`}
+                href={`https://wa.me/6285738527587?text=Halo, saya tertarik dengan ${product.name}. Bisakah Anda memberikan informasi lebih lanjut?`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="gallery__link"
@@ -86,9 +86,6 @@ const Gallery = () => {
                 </div>
                 <div className="gallery__info">
                   <h3>{product.name}</h3>
-                  <p className="price">
-                    <span className="price-label">Mulai dari</span> {product.price}
-                  </p>
                 </div>
               </a>
             </div>
