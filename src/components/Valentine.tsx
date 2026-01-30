@@ -5,7 +5,6 @@ import valentin3 from '../assets/new/valentine/A603B60E-F284-4E86-9851-F75FA44B7
 import valentin4 from '../assets/new/valentine/B8D0048A-3258-4E78-97A7-4B7170ED9D8A.jpg';
 import valentin5 from '../assets/new/valentine/DBE083D7-BF45-4197-882F-5C54475DD761.jpg';
 import valentin6 from '../assets/new/valentine/F3390DF1-0931-4F51-A48D-5D0223E5B630.jpg';
-import valentin7 from '../assets/new/valentine/FA4F6277-9740-487B-A999-0D015D7B272D.jpg';
 import valentin8 from '../assets/new/valentine/FEA309E9-C2E4-4414-92F1-6EB2BA91766D.jpg';
 import valentin9 from '../assets/new/valentine/FF195D25-6015-402A-BC0C-80B4FC24A1A2.jpg';
 
