@@ -46,7 +46,7 @@ const Valentine = () => {
               transition={{ delay: index * 0.1 }}
             >
               <a 
-                href={`https://wa.me/6281234567890?text=Halo, saya tertarik dengan ${product.name} (Mulai dari ${product.price}). Bisakah Anda memberikan informasi lebih lanjut?`}
+                href={`https://wa.me/6285738527587?text=Halo, saya tertarik dengan ${product.name} (Mulai dari ${product.price}). Bisakah Anda memberikan informasi lebih lanjut?`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="gallery__link"
