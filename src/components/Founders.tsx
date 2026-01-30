@@ -7,13 +7,11 @@ const Founders = () => {
     { 
       name: 'Dwi', 
       img: sistaImg,
-      role: 'Direktur Kreatif & Kepala Florist',
       bio: 'Menghadirkan visi inovatif dan keunggulan artistik untuk setiap kreasi. Gairahnya untuk florist berkelanjutan membentuk jantung Fleuri Flowery.'
     },
     { 
       name: 'Dinda', 
       img: dindaImg,
-      role: 'Manajer Operasional & Ahli Botani',
       bio: 'Dinda memastikan setiap rangkaian memenuhi standar tertinggi kami sambil mempertahankan komitmen kami terhadap praktik ramah lingkungan. Pengetahuan botaninya memastikan kesegaran dan kualitas di setiap buket.'
     }
   ];
@@ -46,7 +44,6 @@ const Founders = () => {
               </div>
               <div className="founders__content">
                 <h3>{founder.name}</h3>
-                <p className="founders__role">{founder.role}</p>
                 <p className="founders__bio">{founder.bio}</p>
               </div>
             </motion.div>
